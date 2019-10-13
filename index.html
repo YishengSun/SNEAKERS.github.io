@@ -1,0 +1,271 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sneakers</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i|Raleway:300,400&display=swap" rel="stylesheet">
+   
+ 
+
+    <!-- Flickity -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+   
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="nav_logo">
+                    <a href="#home"><img src="./assets/image/logo.jpeg" alt="logo"></a>
+                </li>
+                <li class="nav_cart">
+                    <a href="#cart"><img src="./assets/image/cart-icon.svg" alt="cart-icon"></a>
+                </li>
+
+                <li class="nav_li"><a href="#about">About</a></li>
+                <li class="nav_li"><a href="#shop">Shop</a></li>
+                <li class="nav_li"><a href="#feature">Features</a></li>
+                <li class="nav_li"><a href="#updates">Updates</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="jumbotron">
+    <span class="black-background"></span>
+    <div class="jumbotron_message">
+        <h1>FIND YOUR SNEAKERS</h1>
+        <p>The Best Sneakers Shop</p>
+    </div>
+</section>
+
+<section class="message" id="message">
+    <div class="message-center">
+        <h2>
+            <em>Why are we</em>
+            <strong>better</strong>
+        </h2>
+        <p id="content">We have a professional identification team to ensure that the sneakers you buy are genuine, 
+           even though our sneakers are all below the second-hand market price.
+        </p>
+    </div>
+</section>
+
+<section class="category" id="feature">
+
+    <div id="men">
+        <div class="category_container">
+            <img src="./assets/image/mens.jpg" alt="men's category" class="men_image">
+            <div class="category_text-center">
+                <p>men's</p>
+            </div>
+        </div>    
+    </div>
+
+    <div id="running">
+        <div class="category_container">
+            <img src="./assets/image/running.jpg" alt="running category" class="running_image">
+            <div class="category_text-center">
+                <p>running</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="basketball">
+        <div class="category_container">
+            <img src="./assets/image/basketball.jpg" alt="basketball category" class="basketball_image">
+            <div class="category_text-center">
+                <p>basketball</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="football">
+        <div class="category_container">
+            <img src="./assets/image/football.jpg" alt="football category" class="football_image">
+            <div class="category_text-center">
+                <p>Football</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="street">
+        <div class="category_container">
+            <img src="./assets/image/street.jpg" alt="trend category" class="trend_image">
+            <div class="category_text-center">
+                <p>Street</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="women">
+        <div class="category_container">
+            <img src="./assets/image/women.jpg" alt="women's category" class="women_image">
+            <div class="category_text-center">
+                <p>women's</p>
+            </div>
+        </div>
+    </div>
+</section> 
+
+<section class="products">
+        <div class="product_title">
+            <h2>
+                <em>Most-popular</em>
+                <strong>Sneakers</strong>
+            </h2>
+        </div>
+
+
+        <div class="main-carousel" id="Shop">
+
+            <div class="carousel-cell">
+                <div class="container-img">
+                    <img src="./assets/image/Adapt_BB.jpeg" alt="Strech Knit Dress">
+                    <p class="pad_p">NIKE</p>
+                    <p class="grey_p">ADAPT BB MAG</p>
+                    <p>$500.00</p>
+                    <button class="addToCart" onClick="onClick()">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container-img">
+                    <img src="./assets/image/AJ1_firstclass.jpeg" alt="Cotton Blue Shirts">
+                    <p class="pad_p">AIR JORDAN</p>
+                    <p class="grey_p">AJ1 FIRST CLASS</p>
+                    <p>$200.00</p>
+                    <button class="addToCart" onClick="onClick()">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container-img">
+                    <img src="./assets/image/AJ4_bred.jpeg" alt="Checked Strech Dress">
+                    <p class="pad_p">AIR JORDAN</p>
+                    <p class="grey_p">AJ4 BRED 2019</p>
+                    <p>$220.00</p>
+                    <button class="addToCart" onClick="onClick()">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container-img">
+                    <img src="./assets/image/AJ5_Poison.jpeg" alt="backpack">
+                    <p class="pad_p">AIR JORDAN</p>
+                    <p class="grey_p">AJ5 POISON</p>
+                    <p>$220.00</p>
+                    <button class="addToCart" onClick="onClick()">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container-img">
+                    <img src="./assets/image/AJ11_concord.jpeg" alt="Demin Overall Shorts">
+                    <p class="pad_p">AIR JORDAN</p>
+                    <p class="grey_p">AJ11 CONCORD 2018</p>
+                    <p>$300.00</p>
+                    <button class="addToCart" onClick="onClick()">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container-img">
+                    <img src="./assets/image/AJ13_Pandas.jpeg" alt="Pink Dotted Dress">
+                    <p class="pad_p">AIR JORDAN</p>
+                    <p class="grey_p">AJ13 HE GOT GAME</p>
+                    <p>$300.00</p>
+                    <button class="addToCart" onClick="onClick()">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container-img">
+                    <img src="./assets/image/AJ13_Terra.jpeg" alt="Cotton Yellow Shirts">
+                    <p class="pad_p">AIR JORDAN</p>
+                    <p class="grey_p">AJ13 LOW TERRACOTTA</p>
+                    <p>$600.00</p>
+                    <button class="addToCart" onClick="onClick()">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="container-img">
+                    <img src="./assets/image/AJ1_ob.jpeg" alt="Blue Silk Dress">
+                    <p class="pad_p">AIR JORDAN</p>
+                    <p class="grey_p">AJ1 OBSIDIAN</p>
+                    <p>$250.00</p>
+                    <button class="addToCart" onClick="onClick()">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="form">
+            <form action="#first-grid" method="#" id="updates">
+                    <h2>
+                        <em>Sign-up for</em>
+                        <strong>Updates</strong>
+                    </h2>
+    
+                    <p>Stay update on our latest product releases, be first to find out about upcomming sales, and get free style
+                        tips from our blog. Unsubscribe at any time.</p>
+                    
+                    <div class="button-border">
+                            <!-- placeholder="Your Email" -->
+                        <input type="email" name="email" placeholder="Your Email">
+                        <button id="submitButton">Subscribe</button>
+                    </div>         
+            </form>
+        </section> <!-- from -->
+    
+
+
+        <footer>
+            <div class="brand-container">
+                <div class="brand-info">
+                    <h3>&copy 2019 Yisheng Sun Co.</h3>
+                    <br>
+                    <p>yisheng4@illinois.edu</p>
+                </div>
+                <div class="brand-address">
+                    <p>1325 N Lincoln Ave</p>
+                    <p>Urbana, IL, 610801</p>
+                </div>
+            </div>
+        
+            <div class="social-container">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/">
+                            <i class="fab fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/">
+                            <i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.weibo.com/">
+                            <i class="fab fa-weibo" aria-hidden="true"></i><span>Weibo</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.ca/">
+                            <i class="fab fa-google-plus" aria-hidden="true"></i><span>Google+</span></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+    <script src="./src/library/jquery-3.2.1.js"></script>
+    <script src="./src/main.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
